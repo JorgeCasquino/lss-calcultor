@@ -56,10 +56,10 @@ const DefectList = () => {
                   {new Date(defect.date).toLocaleDateString()}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  {defect.processArea}
+                  {defect.process_area}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  {defect.defectType}
+                  {defect.defect_type}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   {defect.quantity}
